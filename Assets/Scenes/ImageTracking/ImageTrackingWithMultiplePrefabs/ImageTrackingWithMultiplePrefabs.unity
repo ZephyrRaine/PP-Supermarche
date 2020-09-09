@@ -168,7 +168,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PrefabsList:
-  - imageGuid: ff393cc0-d300-4cc1-88ce-f7f4cf79f719
+  - imageGuid: 7e590657-d16f-459f-beae-d7827fe63ee1
+    imagePrefab: {fileID: 6916502901855112170, guid: e22b43a8fcdab413bb4f52f5076f759e,
+      type: 3}
+  - imageGuid: 91a59ee8-2725-4277-b431-4a4bc203b7ca
+    imagePrefab: {fileID: 6916502901855112170, guid: e22b43a8fcdab413bb4f52f5076f759e,
+      type: 3}
+  - imageGuid: 45b822ef-b359-4a06-a799-956afae32764
     imagePrefab: {fileID: 6916502901855112170, guid: e22b43a8fcdab413bb4f52f5076f759e,
       type: 3}
   m_ImageLibrary: {fileID: 11400000, guid: c86e375d7e7430442a1104e88fa21f21, type: 2}

@@ -16,12 +16,22 @@ MonoBehaviour:
   m_GuidHigh: 11338665651040755373
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5530933818623081664
-      m_GuidHigh: 1871098104270802568
+      m_GuidLow: 5016958786705360471
+      m_GuidHigh: 16230663542420254398
     m_SerializedTextureGuid:
-      m_GuidLow: 5446122435751082643
-      m_GuidHigh: 1447095119299699816
-    m_Size: {x: 0.09, y: 0.058187313}
+      m_GuidLow: 13376904732122594302
+      m_GuidHigh: 9092780694226910889
+    m_Size: {x: 0.09028065, y: 0.191}
     m_SpecifySize: 1
-    m_Name: 2299_001-1
-    m_Texture: {fileID: 2800000, guid: 223a7a9383804b9468640f0e581d1514, type: 3}
+    m_Name: CHOCO
+    m_Texture: {fileID: 2800000, guid: e068bbfe4ffab9a4a9beeca3dd0b307e, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4789339771042635496
+      m_GuidHigh: 14607148049421185460
+    m_SerializedTextureGuid:
+      m_GuidLow: 15295465338771697064
+      m_GuidHigh: 3371501972648376728
+    m_Size: {x: 0.115, y: 0.103046596}
+    m_SpecifySize: 1
+    m_Name: bonduelle
+    m_Texture: {fileID: 2800000, guid: cfc96da868afd44498393c5f2efbc92e, type: 3}
