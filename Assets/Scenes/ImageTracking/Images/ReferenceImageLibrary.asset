@@ -24,7 +24,7 @@ MonoBehaviour:
     m_Size: {x: 0.09028065, y: 0.191}
     m_SpecifySize: 1
     m_Name: CHOCO
-    m_Texture: {fileID: 2800000, guid: e068bbfe4ffab9a4a9beeca3dd0b307e, type: 3}
+    m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4789339771042635496
       m_GuidHigh: 14607148049421185460
@@ -34,4 +34,24 @@ MonoBehaviour:
     m_Size: {x: 0.115, y: 0.103046596}
     m_SpecifySize: 1
     m_Name: bonduelle
-    m_Texture: {fileID: 2800000, guid: cfc96da868afd44498393c5f2efbc92e, type: 3}
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5547458029295572098
+      m_GuidHigh: 8438061281017914523
+    m_SerializedTextureGuid:
+      m_GuidLow: 3347483540568065686
+      m_GuidHigh: 1737666985209973097
+    m_Size: {x: 0.205, y: 0.20287848}
+    m_SpecifySize: 1
+    m_Name: test
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4842474345771622690
+      m_GuidHigh: 12468968524169406129
+    m_SerializedTextureGuid:
+      m_GuidLow: 3739124838439063080
+      m_GuidHigh: 4074152316857706923
+    m_Size: {x: 0.19234075, y: 0.26}
+    m_SpecifySize: 1
+    m_Name: boite_cereale
+    m_Texture: {fileID: 0}
