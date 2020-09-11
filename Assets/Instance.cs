@@ -8,6 +8,6 @@ public class Instance : MonoBehaviour
     public void InstantiatePrefab()
     {
         var mainCam = Camera.main.transform;
-        var instance = Instantiate(otherPrefab, mainCam.position + mainCam.forward * 1f, Quaternion.identity, mainCam);
+        var instance = Instantiate(otherPrefab, mainCam.position + mainCam.forward * 3f, Quaternion.identity, mainCam);
     }
 }
