@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Instance : MonoBehaviour
 {
-    public FollowMainPrefab otherPrefab;
+    public GameObject otherPrefab;
     public void InstantiatePrefab()
     {
-        var instance = Instantiate(otherPrefab, transform.parent);
-        instance.toFollow = this.transform;
+        var mainCam = Camera.main.transform;
+        var instance = Instantiate(otherPrefab, mainCam.position + mainCam.forward * 1f, Quaternion.identity, mainCam);
     }
 }
