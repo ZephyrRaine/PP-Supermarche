@@ -9,7 +9,7 @@ public class rotObj : MonoBehaviour
     float velocity;
     private void FixedUpdate()
     {
-        transformToRotate.RotateAround(Vector3.up, rotSpeed*velocity*Time.deltaTime);
+        transformToRotate.RotateAround(transform.up, rotSpeed*velocity*Time.deltaTime);
         velocity *= 0.98f;
     }
     void OnMouseDrag()
