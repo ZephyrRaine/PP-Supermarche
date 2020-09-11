@@ -173,7 +173,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1080, y: 1920}
+  m_ReferenceResolution: {x: 1572, y: 2900}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7014b080f09b3004987ad522f768ae16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstPanel: {fileID: 4687516226291623002, guid: 0664df137ac83104a918cf35f3964e9d,
+  firstPanel: {fileID: 4687516226291623002, guid: 5beb4ba7c5a6bf24781058ce9a6cc651,
     type: 3}
   panelsTransform: {fileID: 1798786573}
 --- !u!1 &519420028
