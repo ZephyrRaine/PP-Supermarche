@@ -14,6 +14,6 @@ public class rotObj : MonoBehaviour
     }
     void OnMouseDrag()
     {
-        velocity += Input.GetAxis("Mouse X") * rotSpeed * Mathf.Deg2Rad;
+        velocity -= Input.GetAxis("Mouse X") * rotSpeed * Mathf.Deg2Rad;
     }
 }
