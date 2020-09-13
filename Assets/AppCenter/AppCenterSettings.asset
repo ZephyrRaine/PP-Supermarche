@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AppCenterSettings
   m_EditorClassIdentifier: 
   iOSAppSecret: 
-  AndroidAppSecret: 329b1ab8-5c3f-4b45-b873-de390d473057
+  AndroidAppSecret: 31b9133b-189e-41ee-809d-78e62bc400df
   UWPAppSecret: 
   UseAnalytics: 0
   UseCrashes: 0
