@@ -20,9 +20,10 @@ public class FoodDisplayer : MonoBehaviour
         if (current > 2)
             current = 0;
 
-        foreach (Transform t in transform)
+        for(int i = 0; i < transform.childCount; i++)
         {
-            t.gameObject.SetActive(t.GetSiblingIndex() == current);
+            Debug.Log("going through transform " + i);
+            transform.GetChild(i).gameObject.SetActive(i == current);
         }
 
         foodTitle.text = transform.GetChild(current).name;
