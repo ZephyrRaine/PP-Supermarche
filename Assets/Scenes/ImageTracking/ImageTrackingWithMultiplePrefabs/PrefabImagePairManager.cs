@@ -108,7 +108,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 if(currentPrefabInstance != null)
                 {
                     Destroy(currentPrefabInstance);
-                    m_Instantiated[currentGUIDInstance] = null;
+                    m_Instantiated.Remove(currentGUIDInstance);
                 }
                 currentPrefabInstance = Instantiate(prefab, trackedImage.transform);
                 currentGUIDInstance = trackedImage.referenceImage.guid;
