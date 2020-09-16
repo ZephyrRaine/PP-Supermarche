@@ -251,7 +251,7 @@ MonoBehaviour:
   - imageGuid: 9a8d1482-87af-4cfc-9be4-0c4007041a75
     imagePrefab: {fileID: 0}
   - imageGuid: cda8e122-ecc2-4333-b1e6-a42ecfac0aad
-    imagePrefab: {fileID: 3312728602301253215, guid: 5d81b097707c58e4b949537763ba4bbe,
+    imagePrefab: {fileID: 3312728602301253215, guid: 5a8fa3ebed6305f4aaeaa4eb994488c3,
       type: 3}
   m_ImageLibrary: {fileID: 11400000, guid: c86e375d7e7430442a1104e88fa21f21, type: 2}
 --- !u!114 &264295717
@@ -1101,7 +1101,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chocolat au lait dessert - AUCHAN
+  m_text: '-'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
