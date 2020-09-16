@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 8589868302198045125}
   - component: {fileID: 6033780286713277205}
   m_Layer: 0
-  m_Name: GameObject (2)
+  m_Name: Cookies au chocolat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 8337394170413751516}
   - component: {fileID: 3277573444260611209}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: Muffin au chocolat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 5454875914913380156}
   - component: {fileID: 4323301209238970648}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Fondant au chocolat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
