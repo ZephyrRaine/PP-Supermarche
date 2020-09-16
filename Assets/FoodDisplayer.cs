@@ -6,10 +6,12 @@ public class FoodDisplayer : MonoBehaviour
 {
     public TMP_Text foodTitle;
     int current = 0;
+    public static bool isActive = false;
     private void Awake()
     {
         foodTitle = GameObject.FindGameObjectWithTag("foodTitle").GetComponent<TMP_Text>();
         ChangeCurrentFood(0);
+        isActive = true;
     }
 
     public void ChangeCurrentFood(int offset)
