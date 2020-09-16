@@ -316,6 +316,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5454875914913380156}
   - component: {fileID: 4323301209238970648}
+  - component: {fileID: 5819983387232561798}
+  - component: {fileID: 3377915463041470344}
+  - component: {fileID: 8960529396763024922}
   m_Layer: 0
   m_Name: Fondant au chocolat
   m_TagString: Untagged
@@ -443,6 +446,64 @@ MonoBehaviour:
   optionalRotationMode: 1
   optionalScrambleMode: 0
   optionalString: 
+--- !u!65 &5819983387232561798
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098280326413526024}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.72, y: 1.72, z: 1.72}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3377915463041470344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098280326413526024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8960529396763024922}
+          m_MethodName: LoadScreen
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &8960529396763024922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098280326413526024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c62b68626814bc54ab2ebaa5eb355b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelPrefab: {fileID: 4687516226291623002, guid: 5beb4ba7c5a6bf24781058ce9a6cc651,
+    type: 3}
+  isReturn: 0
+  noTransition: 0
+  bypass: 1
 --- !u!1 &4164218221573978433
 GameObject:
   m_ObjectHideFlags: 0
