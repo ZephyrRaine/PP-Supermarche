@@ -25,7 +25,7 @@ public class InterfaceManager : MonoBehaviour
     {
         yield return new WaitForEndOfFrame();
 
-        ShowScreen(firstPanel, null);
+        //ShowScreen(firstPanel, null);
     }
 
     private void Awake()

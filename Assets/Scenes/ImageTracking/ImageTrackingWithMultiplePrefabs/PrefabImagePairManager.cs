@@ -103,6 +103,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 if (m_Instantiated.TryGetValue(trackedImage.referenceImage.guid, out var instantiatedPrefab))
                 {
                     instantiatedPrefab.SetActive(trackedImage.trackingState == TrackingState.Tracking);
+                    GameObject.FindGameObjectWithTag("foodTitle").GetComponent<TMPro.TMP_Text>().text = m_PrefabsDictionary[trackedImage.referenceImage.guid].name;
+
                 }
             }
         }
