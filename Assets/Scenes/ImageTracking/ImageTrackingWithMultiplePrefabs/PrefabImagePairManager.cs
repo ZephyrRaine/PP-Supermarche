@@ -97,22 +97,21 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 trackedImage.transform.localScale = new Vector3(minLocalScalar, minLocalScalar, minLocalScalar);
                 AssignPrefab(trackedImage);
             }
+
+            foreach(var trackedImage in eventArgs.updated)
+            {
+                if (m_Instantiated.TryGetValue(trackedImage.referenceImage.guid, out var instantiatedPrefab))
+                {
+                    instantiatedPrefab.SetActive(trackedImage.trackingState == TrackingState.Tracking);
+                }
+            }
         }
 
-        GameObject currentPrefabInstance;
-        Guid currentGUIDInstance;
         void AssignPrefab(ARTrackedImage trackedImage)
         {
             if (m_PrefabsDictionary.TryGetValue(trackedImage.referenceImage.guid, out var prefab))
             {
-                if(currentPrefabInstance != null)
-                {
-                    Destroy(currentPrefabInstance);
-                    m_Instantiated.Remove(currentGUIDInstance);
-                }
-                currentPrefabInstance = Instantiate(prefab, trackedImage.transform);
-                currentGUIDInstance = trackedImage.referenceImage.guid;
-                m_Instantiated[trackedImage.referenceImage.guid] = currentPrefabInstance;
+                m_Instantiated[trackedImage.referenceImage.guid] = Instantiate(prefab, trackedImage.transform);
                 GameObject.FindGameObjectWithTag("foodTitle").GetComponent<TMPro.TMP_Text>().text = prefab.name;
             }
         }
