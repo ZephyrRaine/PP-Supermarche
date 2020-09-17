@@ -352,7 +352,6 @@ GameObject:
   - component: {fileID: 264295718}
   - component: {fileID: 264295717}
   - component: {fileID: 264295716}
-  - component: {fileID: 264295715}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -360,20 +359,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &264295715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 264295714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d5323815f004189af1fb658b6c9369, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AlternativePrefab: {fileID: 9217775264494283831, guid: 0eb2e6687d9fa1845b87033425135cd5,
-    type: 3}
 --- !u!114 &264295716
 MonoBehaviour:
   m_ObjectHideFlags: 0
