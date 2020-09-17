@@ -10,6 +10,10 @@ public class FoodDisplayer : MonoBehaviour
     private void Awake()
     {
         foodTitle = GameObject.FindGameObjectWithTag("foodTitle").GetComponent<TMP_Text>();
+        foreach(Transform t in GameObject.FindGameObjectWithTag("fleches").transform)
+        {
+            t.gameObject.SetActive(true);
+        }
         ChangeCurrentFood(0);
         isActive = true;
     }
