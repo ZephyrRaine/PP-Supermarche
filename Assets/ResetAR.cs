@@ -10,7 +10,4 @@ public class ResetAR : MonoBehaviour
         var arSession = GetComponent<ARSession>();
         arSession.Reset();
     }
-
-
-
 }

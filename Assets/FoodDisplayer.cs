@@ -14,6 +14,11 @@ public class FoodDisplayer : MonoBehaviour
         isActive = true;
     }
 
+    private void OnDisable()
+    {
+        isActive = false;
+    }
+
     public void ChangeCurrentFood(int offset)
     {
         current += offset;
